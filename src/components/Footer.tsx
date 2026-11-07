@@ -11,7 +11,7 @@ export function Footer() {
       <Container className="grid gap-10 py-14 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_minmax(0,1fr)]">
         <div>
           <Link to="/" aria-label="Prayer Watch, home" className="inline-flex rounded-lg">
-            <Logo tone="light" />
+            <Logo tone="light" className="h-14 w-auto" />
           </Link>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-mist">
             Prayer Watch is a Christian prayer and devotional community app from {site.owner}. It helps believers
